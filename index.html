@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/700dd6bed0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header"> 
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Graphic Designer</p>
+                <h1>Hi, I'm <span>Maryam</span><br> Javed From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+    <!----------------about---------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                    <p align="justify">Maryam Javed is an accomplished Pakistani digital artist, boasting over two years of experience collaborating with Bahria University Islamabad, and leading creative agencies. 
+                        Her diverse creativity encompasses 2D/3D design and animation, branding, illustration, logo design, typography, video editing, and more.
+                        With a keen eye for aesthetics and a passion for visual storytelling, Maryam has carved a niche for herself in the dynamic realm of graphic design.
+                        Maryam's dedication to her craft is evident in the innovative and captivating designs she produces, making her a notable presence in the vibrant world of graphic design.
+                        Always thrilled to collaborate with passionate partners eager to elevate their visual language and push the boundaries of modern creativity.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Graphic Designer</span></li>
+                            <li><span>2d,3d Animations</span></li>
+                            <li><span>Logo Design</span></li>
+                            <li><span>Video Editing</span></li>
+                            <li><span>Illustration</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>November 2022 - Current</span><br> PR Society BUIC</li>
+                            <li><span>June 2023 - September 2023</span> <br>CEBS Islambad</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Broadcasting and Digital Media, BUIC</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------Services----------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-object-group"></i>
+                <h2>Graphic Designer</h2>
+                <p align="justify">I create logo and other visual graphics that reflect your companies brand identity and will consistent in style and designing.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-photo-film"></i>
+                <h2>Video Editing</h2>
+                <p align="justify">I have the best power of creating some best moments and also the interest to relive them.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-fill-drip"></i>
+                <h2>Illustration</h2>
+                <p align="justify">My work seamlessly blends traditional and digital techniques, creating a visual language that captivates and resonates.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------Portfolio------------ -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/1.jpg">
+                <div class="layer">
+                    <h3>Graphic</h3>
+                    <p>I create logo and other visual graphics that reflect your companies brand identity and will consistent in style and designing.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/2.jpg">
+                <div class="layer">
+                    <h3>Video</h3>
+                    <p>I have the best power of creating some best moments and also the interest to relive them.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/3.jpg">
+                <div class="layer">
+                    <h3>Illustration</h3>
+                    <p>My work seamlessly blends traditional and digital techniques, creating a visual language that captivates and resonates.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ---------------------contact------------ -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-regular fa-envelope"></i> info@maryamjaved@gmail.com</p>
+                <p> <i class="fa-solid fa-square-phone"></i> +92-334-0741052</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100009958745324"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Maryam18947864"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/yum._.24/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/maryam-javed-3b2290278/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Maryam <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+<a href="#" onclick="topFunction()" id="myBtn"><i class="fa-solid fa-caret-up"></i></a>
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+    sidemeu.style.right = "0";
+    }
+    function closemenu() {
+    sidemeu.style.right = "-200px";
+    }
+    </script>
+
+<script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzMNcunNfO0RCfcsUjE2Qcm7ZkgbsqBR6DbQBSEb9HFPRYDR3aAfKMMXlo3B86h-Dm4wQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
