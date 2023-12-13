@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic</title>
+    <link rel="stylesheet" href="gstyle.css">
+    <script src="https://kit.fontawesome.com/700dd6bed0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header"> 
+        <div class="containe">
+            <nav>
+                <a href="index.html#header"><img src="images/logo.png" class="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="index.html#header">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h3>Graphic <span>Gallery</span></h3>
+            </div>
+            <div class="box">
+                <div class="dream">
+                    <img src="images/Graphic/1.jpg">
+                    <img src="images/Graphic/2.jpg">
+                    <img src="images/Graphic/3.jpg">
+                    <img src="images/Graphic/4.jpg">
+                    <img src="images/Graphic/5.jpg">
+                </div>
+    
+                <div class="dream">
+                    <img src="images/Graphic/6.jpg">
+                    <img src="images/Graphic/7.jpg">
+                    <img src="images/Graphic/8.jpg">
+                    <img src="images/Graphic/9.jpg">
+                    <img src="images/Graphic/10.jpg">
+                </div>
+    
+                <div class="dream">
+                    <img src="images/Graphic/11.jpg">
+                    <img src="images/Graphic/12.jpg">
+                    <img src="images/Graphic/13.jpg">
+                    <img src="images/Graphic/14.jpg">
+                    <img src="images/Graphic/15.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+        sidemeu.style.right = "0";
+        }
+        function closemenu() {
+        sidemeu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
